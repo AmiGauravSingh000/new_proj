@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: red;
+}
+.header{
+    border: 2px solid black;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aquamarine;
+}
+
+.header .logo{
+    border: 2px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+h2{
+    margin-right: 10px;
+}
+.header .navbar{
+    border: 2px solid black;
+    margin-right: 20px;
+}
+.header .navbar ul{
+    display: flex;
+   padding: 10px;
+
+}
+.header .navbar ul li{
+   list-style: none;
+   margin-left: 10px;
+}
